@@ -10,8 +10,8 @@ const Nav = () => {
   return (
     <div className="navbar">
       <img src={Logo} alt="" />
-      <div className="navitems">
-        <ul>
+      <div>
+        <ul className="navitems">
           <Link to="/" style={style}>
             <li>主页面</li>
           </Link>

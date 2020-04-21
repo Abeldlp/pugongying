@@ -8,7 +8,7 @@ const ServiceLeft = (props) => {
       </div>
       <div className="service-explanation">
         <h2 className="service-title">{props.title}</h2>
-        <p className="">{props.text}</p>
+        <p className="service-description">{props.text}</p>
       </div>
     </div>
   );

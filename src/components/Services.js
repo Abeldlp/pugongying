@@ -1,6 +1,11 @@
 import React from "react";
 import ServiceLeft from "./ServiceLeft";
-import Logo from "../images/dadelion-logo.png";
+import Restaurant from "../images/apex-360-ybmTVrqdjM8-unsplash.jpg";
+import Museum from "../images/igor-miske-oLhTLD-RBsc-unsplash.jpg";
+import Events from "../images/hulki-okan-tabak-GKx96wY_MoA-unsplash.jpg";
+import ThemePark from "../images/matt-bowden-GZc4fnQsaWQ-unsplash.jpg";
+import Tourism from "../images/dimitry-b-uDl5opHop7E-unsplash.jpg";
+
 //IMPORT IMAGES TO USE ON THE SERVICES
 
 const Services = () => {
@@ -9,7 +14,7 @@ const Services = () => {
       number: 1,
       id: "Left",
       title: "レストラン予約サービス",
-      src: Logo,
+      src: Restaurant,
       text:
         "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem veniam voluptatem molestias et eaque explicabo eius earum praesentium libero animi.",
     },
@@ -18,7 +23,7 @@ const Services = () => {
       number: 2,
       id: "Right",
       title: "美術館予約サービス",
-      src: Logo,
+      src: Museum,
       text:
         "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem veniam voluptatem molestias et eaque explicabo eius earum praesentium libero animi.",
     },
@@ -27,7 +32,7 @@ const Services = () => {
       number: 3,
       id: "Left",
       title: "イベント予約サービス",
-      src: Logo,
+      src: Events,
       text:
         "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem veniam voluptatem molestias et eaque explicabo eius earum praesentium libero animi.",
     },
@@ -36,7 +41,7 @@ const Services = () => {
       number: 4,
       id: "Right",
       title: "テーマパーク予約サービス",
-      src: Logo,
+      src: ThemePark,
       text:
         "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem veniam voluptatem molestias et eaque explicabo eius earum praesentium libero animi.",
     },
@@ -45,7 +50,7 @@ const Services = () => {
       number: 5,
       id: "Left",
       title: "観光予約サービス",
-      src: Logo,
+      src: Tourism,
       text:
         "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem veniam voluptatem molestias et eaque explicabo eius earum praesentium libero animi.",
     },

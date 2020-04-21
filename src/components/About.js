@@ -1,15 +1,18 @@
 import React from "react";
+import Xiang from "../images/20180331_124044.jpg";
 
 const About = () => {
   return (
     <div>
-      <div>
-        <img src="" alt="" />
+      <div className="daihyouphoto-container">
+        <img src={Xiang} alt=""className="daihyouphoto" />
       </div>
-      <div>
-        <h1>孙香义</h1>
-        <h3>This is How I do business</h3>
-        <p>
+      <div className="daihyoutext-container">
+        <h1 className="daihyoutext-title">孙香义</h1>
+        <h3 className="daihyoutext-secondtitle">
+          Everything start with a dream
+        </h3>
+        <p className="daihyoutext-explanation">
           出生于中国北部吉林省，大学在北京专攻旅游管理。
           毕业后在上海某国际旅行社担任韩语国际导游3年。
           2009年启程到日本东京求学。在学期间兼职中日当地导游和中日韩会展翻译。
