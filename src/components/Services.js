@@ -57,7 +57,7 @@ const Services = () => {
   ];
 
   return (
-    <div>
+    <div className="services-body">
       <h1 id="title">预约项目一览</h1>
       <h2 id="title2">提供多种预订服务，使旅行更轻松</h2>
       {textDeclaration.map((currentText) => (

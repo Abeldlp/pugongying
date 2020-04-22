@@ -8,7 +8,10 @@ const NavMobile = () => {
     color: "black",
   };
 
-  const [buttons, setButtons] = useState({ opacity: 0, left: "0px" });
+  const [buttons, setButtons] = useState({
+    opacity: 0,
+    left: "500px",
+  });
   const [buttontext, setButtontext] = useState("MENU");
   const [buttonColor, setButtonColor] = useState({
     backgroundColor: "lightgrey",
@@ -20,7 +23,7 @@ const NavMobile = () => {
       setButtonColor({ backgroundColor: "darkgrey" });
       setButtons({ opacity: 0.9, right: "20px" });
     } else {
-      setButtons({ opacity: 0, left: "0px" });
+      setButtons({ opacity: 0, left: "500px" });
       setButtontext("MENU");
       setButtonColor({ backgroundColor: "lightgrey" });
     }
