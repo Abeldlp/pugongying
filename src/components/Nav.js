@@ -9,23 +9,23 @@ const Nav = () => {
   };
   return (
     <div className="navbar">
-      <img src={Logo} alt="" />
+      <img className="Logo" src={Logo} alt="" />
       <div>
         <ul className="navitems">
           <Link to="/" style={style}>
-            <li>主页面</li>
+            <li className="Navitem">主页面</li>
           </Link>
           <Link to="/service" style={style}>
-            <li>预约项目一览</li>
+            <li className="Navitem">预约项目一览</li>
           </Link>
           <Link to="/about" style={style}>
-            <li>代表</li>
+            <li className="Navitem">代表</li>
           </Link>
           <Link to="/prices" style={style}>
-            <li>价格表一览</li>
+            <li className="Navitem">价格表一览</li>
           </Link>
           <Link to="/contact" style={style}>
-            <li>联系方式</li>
+            <li className="Navitem">联系方式</li>
           </Link>
         </ul>
       </div>

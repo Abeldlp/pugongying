@@ -3,9 +3,9 @@ import Xiang from "../images/20180331_124044.jpg";
 
 const About = () => {
   return (
-    <div>
+    <div className="About-container">
       <div className="daihyouphoto-container">
-        <img src={Xiang} alt=""className="daihyouphoto" />
+        <img src={Xiang} alt="" className="daihyouphoto" />
       </div>
       <div className="daihyoutext-container">
         <h1 className="daihyoutext-title">孙香义</h1>
